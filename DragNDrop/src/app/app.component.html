@@ -1,0 +1,46 @@
+<!-- <div class="container">
+    <div class="jumbotron">
+      <h1>Welcome</h1>
+      <h2>Angular & Bootstrap Demo</h2>
+    </div>
+</div>
+<div  *ngFor="let artist of title" class=”pop” cdkDrag >{{artist}}</div>  -->
+
+
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-4 col-sm-4 sidebar1">
+              <div class="logo">
+                  <button type="button" class="btn btn-primary btn-round-sm btn-sm">Basic</button>
+                  <button type="button" class="btn btn-primary btn-round-sm btn-sm" id = "Variation"><b>All Variations</b></button>
+                  <br>
+                  <h5 style="margin: 5px 0px -15px -5px;">Basics</h5>
+              </div>
+              <hr>
+              <div class="left-navigation">
+                  <ul class="list">
+                      <h1 cdkDrag>Add Heading Text</h1>
+                      <br>
+                      <h2 cdkDrag>Add SubHeading Text</h2>
+                      <h3 cdkDrag>Add Body</h3>
+                  </ul>
+              </div>
+              <hr>
+              <div class="image-upload-wrap">
+                  <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
+                  <div class="drag-text">
+                    <button class="file-upload-btn1" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Upload a font</button>
+                    <h5>File Should be in TFF Format</h5>
+                    
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-8 col-sm-8 main-content">
+          <!-- <div class="panel panel-info" style="background-color: yellow">
+              <div class="panel-heading">
+                <h3 class="panel-title">Slide 1</h3>
+              </div>
+              <div class="panel-body" style="background-color: gray; height: 300px"><h3 style="padding: 100px">Add Text</h3></div>
+            </div> -->
+      </div>
+  </div>
